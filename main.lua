@@ -45,7 +45,6 @@ function love.draw()
     end
 
     if gameState == 2 then
-        love.graphics.setColor(1, 1, 1)
         love.graphics.setFont(gameFont)
         love.graphics.print("Score:", screenWidth / 2, 0)
         love.graphics.print("Time:", 10, 0)
